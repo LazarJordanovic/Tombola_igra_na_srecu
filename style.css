@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/tombola.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    margin-top: -620px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: brown;
+    
+}
+main {
+    max-width: 70rem;
+    margin: 2rem auto;
+    background: linear-gradient(30deg, #3dc0c0, #5bceae);
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 12px 12px 2px 1px brown;
+    text-align: center;
+    margin-left: -100px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 3rem;
+    
+}
+section {
+    background-color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem;
+    border-radius: 1rem;
+    box-shadow:inset 12px 12px 2px 1px brown;
+    align-items: center;
+}
+
+.dugme {
+    padding: 1.6rem;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 285px;
+    background-color: rgb(207, 185, 162);
+    margin-left: 25px;
+    border: 3px solid black;
+    margin-top: 38px;
+    font-weight: bold;
+    
+}
+.dugme:hover {
+    background-color: brown;
+    cursor: pointer;
+    outline: none;
+}
+.broj {
+    font-size: 100px;
+    color:brown;
+
+
+}
+footer {
+    width: 48%;
+    height: 600px;
+    border-radius: 4rem;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background:linear-gradient(30deg, #3dc0c0, #5bceae);
+    box-shadow: 12px 12px 2px 1px brown;
+    color: brown;
+    margin-left: 30px;
+
+}
+.ispis {
+    background-color: white;
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 12px 12px 2px 1px brown;
+    font-size: 40px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 10px;
+
+}
