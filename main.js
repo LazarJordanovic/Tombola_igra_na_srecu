@@ -47,4 +47,7 @@ function getBroj(){
     broj.innerHTML=znak;
     brojevi.innerHTML=izbaceniBrojevi;
 }
+function pokreniPonovo() {
+    window.location.assign("file:///C:/Users/home1/Desktop/Web%20Aplikacije/Tombola%20app/index.html");
+  }
 
