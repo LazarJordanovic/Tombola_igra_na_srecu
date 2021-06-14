@@ -27,18 +27,49 @@ function getBroj(){
         izbaceniBrojevi.push(ispis);
         for ( i=0; i<izbaceniBrojevi.length;i++){
             ispis += izbaceniBrojevi[i]+" ";
-            //   Ovde treba funkcija koje ce posle ispisanog 11 broja po redu,
-            //   da nova 11 broja upise u seledecemo redu i tako do kraja izvlacenja 
+            //   FUNKCIJA ZA ISPIS BROJEVA U DIV ELEMENTU(MADA NIJE BAS NAJSAVRSENIJA)!!!
+            	//  if (i>10) {
+            //      izbaceniBrojevi[10] =novired;
+            //      }
+            //      if (i>20) {
+            //         izbaceniBrojevi[20] = novired;
+            //         }
+            switch (i) {
+                case 10:
+                    izbaceniBrojevi[i]=novired;
+                    break;
+                case 20:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 30:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 40:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 50:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 60:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 70:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 80:
+                    izbaceniBrojevi[i] = novired;
+                    break;
+                case 90:
+                    izbaceniBrojevi[i] = novired;
+                    break;
             
-            // if (izbaceniBrojevi[10]) {
-            //     let noviRed = "<br>";
-            // // noviRed += ispis;
-                
-            //  }
-            if (brojevi == 11) {
-                for (i=11; i< izbaceniBrojevi.length; i++)
-                ispis += izbaceniBrojevi[i] +"<br>";
+                default:
+                    izbaceniBrojevi[i] = "";
+                    document.getElementsByClassName("brojevi").innerHTML = "Kraj izvlacenja";
+                    break;
             }
+            
+           
         }
         //  console.log(ispis);
         //  console.log(izbaceniBrojevi);
