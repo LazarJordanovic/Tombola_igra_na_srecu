@@ -64,7 +64,7 @@ function getBroj(){
                     break;
             
                 default:
-                    izbaceniBrojevi[i] = "";
+//                     izbaceniBrojevi[i] = "";
                     document.getElementsByClassName("brojevi").innerHTML = "Kraj izvlacenja";
                     break;
             }
